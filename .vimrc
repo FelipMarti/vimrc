@@ -63,3 +63,5 @@ set background=light " When set to "dark", Vim will try to use colours that look
 set ffs=unix		" Use Unix as the standard file type
 
 
+filetype on         " ros launch files
+au BufNewFile,BufRead *.launch set filetype=xml
